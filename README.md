@@ -68,17 +68,13 @@ Designed to analyze how error type and task complexity impact premise critique a
 ## Results
 
 <p align="center" width="50%">
-<<<<<<< HEAD
-<a ><img src="resources\img\results.png
-=======
 <a ><img src="resources/img/results.png
->>>>>>> 546ccce0194f49f75bf4939a32d306f638944f94
 " alt="results" style="width: 40%; min-width: 550px; display: block; margin: auto;"></a>
 </p>
 
-specific response and corresponding evaluation results can be found in `evaluation\infer_result` and `evaluation\eval_result`
+specific response and corresponding evaluation results can be found in `evaluation/infer_result` and `evaluation/eval_result`
 
-The statistical results of the evaluation results are acceptable at `evaluation\statistics`
+The statistical results of the evaluation results are acceptable at `evaluation/statistics`
 
 ## Install
 ```
@@ -86,7 +82,7 @@ pip install -r requirements.txt
 ```
 ## Run Code
 
-For reference, the command - line scripts are located in the `evaluation\reference_sh` folder.
+For reference, the command - line scripts are located in the `evaluation/reference_sh` folder.
 
 ### Inference
 Run following commad to get LLM's responses.
@@ -100,7 +96,7 @@ Validates inference results for missing samples (repeat until no omissions).
 ```bash
 python ./evaluation/inference.py --model_name <model_name> --mode check --save_frequency <save_frequency> --dataset_load_proc <dataset_load_proc> --infer_proc <infer_proc>
 ```
-Scripts located in `evaluation\reference_sh`.
+Scripts located in `evaluation/reference_sh`.
 
 ### Evaluation
 Run following commad to get o3-mini-high's evaluation result to corresponding responses.
@@ -115,7 +111,7 @@ Validates evaluation results for missing samples (repeat until no omissions).
 python ./evaluation/eval.py --model_name <model_name> --mode check --evaluator <evaluator_model> --save_frequency <save_frequency> --infer_proc <infer_proc>
 ```
 
-Scripts located in `evaluation\reference_sh`.
+Scripts located in `evaluation/reference_sh`.
 
 ### Statistics
 
