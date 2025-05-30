@@ -33,7 +33,7 @@
 
 <p align="center" width="50%">
 <a ><img src="resources/img/illustration.svg
-" alt="overview" style="width: 40%; min-width: 200px; display: block; margin: auto;"></a>
+" alt="introduction" style="width: 40%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 
 Large language models (LLMs) have witnessed rapid advancements, demonstrating remarkable capabilities. However, a notable vulnerability persists: LLMs often uncritically accept flawed or contradictory premises, leading to inefficient reasoning and unreliable outputs. This emphasizes the significance of possessing the **Premise Critique Ability** for LLMs, defined as the capacity to proactively identify and articulate errors in input premises. Most existing studies assess LLMs' reasoning ability in ideal settings, largely ignoring their vulnerabilities when faced with flawed premises. Thus, we introduce the **Premise Critique Bench (PCBench)**, designed by incorporating four error types across three difficulty levels, paired with multi-faceted evaluation metrics. We conducted systematic evaluations of 15 representative LLMs
@@ -61,15 +61,15 @@ We construct **PCBench** to systematically evaluate LLMs' premise critique abili
 **Scale**: 100 base problems per error-difficulty combination → 1,200 base problems → 3,600 problems (3 variants each).  
 Designed to analyze how error type and task complexity impact premise critique ability.
 <p align="center" width="50%">
-<a ><img src="resources\img\construct.png
-" alt="overview" style="width: 40%; min-width: 500px; display: block; margin: auto;"></a>
+<a ><img src="resources/img/construct.png
+" alt="construction" style="width: 40%; min-width: 500px; display: block; margin: auto;"></a>
 </p>
 
 ## Results
 
 <p align="center" width="50%">
-<a ><img src="resources\img\results.png
-" alt="overview" style="width: 40%; min-width: 550px; display: block; margin: auto;"></a>
+<a ><img src="resources/img/results.png
+" alt="results" style="width: 40%; min-width: 550px; display: block; margin: auto;"></a>
 </p>
 
 ## Install
