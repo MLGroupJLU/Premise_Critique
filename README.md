@@ -59,14 +59,14 @@ We construct **PCBench** to systematically evaluate LLMs' premise critique abili
 
 **Scale**: 100 base problems per error-difficulty combination → 1,200 base problems → 3,600 problems (3 variants each).  
 Designed to analyze how error type and task complexity impact premise critique ability.
-<p align="center" width="50%">
-<a ><img src="resources/img/construct.png" alt="construction" style="width: 40%; min-width: 500px; display: block; margin: auto;"></a>
+<p align="center" width="80%">
+<a ><img src="resources/img/construct.png" alt="construction" style="width: 60%; min-width: 500px; display: block; margin: auto;"></a>
 </p>
 
 ## Results
 
-<p align="center" width="50%">
-<a ><img src="resources/img/results.png" alt="results" style="width: 40%; min-width: 550px; display: block; margin: auto;"></a>
+<p align="center" width="80%">
+<a ><img src="resources/img/results.png" alt="results" style="width: 60%; min-width: 550px; display: block; margin: auto;"></a>
 </p>
 
 specific response and corresponding evaluation results can be found in `evaluation/infer_result` and `evaluation/eval_result`
