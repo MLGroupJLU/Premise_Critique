@@ -32,7 +32,7 @@
 ## Introduction
 
 <p align="center" width="50%">
-<a ><img src="resources\img\illustration.svg
+<a ><img src="resources\img\illustration.jpg
 " alt="overview" style="width: 40%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 
