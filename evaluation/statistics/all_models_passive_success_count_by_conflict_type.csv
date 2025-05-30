@@ -1,0 +1,16 @@
+Model,contra_infer_insert,contra_premise_insert,flawed_solution_completion,irr_query_distraction
+claude-3-7-sonnet-20250219-thinking,235,288,168,146
+Deepseek-R1,241,276,110,185
+DeepSeek-V3,252,274,121,179
+gemini-2.0-flash-thinking-exp-01-21,278,274,192,191
+gpt-4.1,269,282,153,174
+gpt-4o,216,266,95,112
+llama-4-maverick,178,240,120,104
+o3-mini-medium,252,280,210,136
+o4-mini-medium,273,286,134,198
+qwen3-235b-a22b,257,272,156,155
+Qwen3-235B-A22B_thinking,234,253,142,212
+qwen3-30b-a3b,247,264,119,111
+Qwen3-30B-A3B_thinking,211,238,110,167
+Qwen3-8B,230,261,108,120
+Qwen3-8B_thinking,200,214,113,159

@@ -1,0 +1,16 @@
+Model,contra_infer_insert - medium,contra_infer_insert - hard,contra_infer_insert - normal,contra_premise_insert - medium,contra_premise_insert - hard,contra_premise_insert - normal,flawed_solution_completion - medium,flawed_solution_completion - hard,flawed_solution_completion - normal,irr_query_distraction - medium,irr_query_distraction - hard,irr_query_distraction - normal
+claude-3-7-sonnet-20250219-thinking,100,100,100,100,100,100,100,100,100,100,100,100
+Deepseek-R1,100,100,100,100,100,100,100,100,100,100,100,100
+DeepSeek-V3,100,100,100,100,100,100,100,100,100,100,100,100
+gemini-2.0-flash-thinking-exp-01-21,100,100,100,100,100,100,100,100,100,100,100,100
+gpt-4.1,100,100,100,100,100,100,100,100,100,100,100,100
+gpt-4o,100,100,100,100,100,100,100,100,100,100,100,100
+llama-4-maverick,100,100,100,100,100,100,100,100,100,100,100,100
+o3-mini-medium,100,100,100,100,100,100,100,100,100,100,100,100
+o4-mini-medium,100,100,100,100,100,100,100,100,100,100,100,100
+qwen3-235b-a22b,100,100,100,100,100,100,100,100,100,100,100,100
+Qwen3-235B-A22B_thinking,100,100,100,100,100,100,100,100,100,100,100,100
+qwen3-30b-a3b,100,100,100,100,100,100,100,100,100,100,100,100
+Qwen3-30B-A3B_thinking,100,100,100,100,100,100,100,100,100,100,100,100
+Qwen3-8B,100,100,100,100,100,100,100,100,100,100,100,100
+Qwen3-8B_thinking,100,100,100,100,100,100,100,100,100,100,100,100

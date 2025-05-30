@@ -1,0 +1,119 @@
+{
+    "model_name": "gemini-2.5-flash-preview-04-17-thinking",
+    "overall_statistics": {
+        "active_recognition_count": 63,
+        "passive_recognition_count": 104,
+        "active_recognition_rate": 0.525,
+        "passive_recognition_rate": 0.8666666666666667,
+        "normal_answer_avg_len_overall": 9390.333333333334,
+        "ill_answer_avg_len_overall": 10279.433333333332,
+        "ill_with_hint_answer_avg_len_overall": 9719.808333333332,
+        "active_criticism_efficiency_overall": 1.0946824748855204,
+        "passive_criticism_efficiency_overall": 1.0350866138937203,
+        "active_success_count_for_efficiency": 63,
+        "passive_success_count_for_efficiency": 104,
+        "active_criticism_efficiency_on_success": 1.0264265585315278,
+        "passive_criticism_efficiency_on_success": 1.025319128073465,
+        "total_evaluated": 120,
+        "valid_for_metrics": 120,
+        "invalid_format_count": 0,
+        "invalid_format_pids": []
+    },
+    "statistics_by_difficulty": {
+        "normal": {
+            "active_recognition_count": 15,
+            "passive_recognition_count": 20,
+            "active_recognition_rate": 0.75,
+            "passive_recognition_rate": 1.0,
+            "normal_answer_avg_len_overall": 1151.15,
+            "ill_answer_avg_len_overall": 1897.35,
+            "ill_with_hint_answer_avg_len_overall": 1671.95,
+            "active_criticism_efficiency_overall": 1.6482213438735176,
+            "passive_criticism_efficiency_overall": 1.452417148069322,
+            "active_success_count_for_efficiency": 15,
+            "passive_success_count_for_efficiency": 20,
+            "active_criticism_efficiency_on_success": 1.3015305552452239,
+            "passive_criticism_efficiency_on_success": 1.452417148069322,
+            "total_evaluated": 20,
+            "valid_for_metrics": 20,
+            "invalid_format_count": 0,
+            "invalid_format_pids": []
+        },
+        "medium": {
+            "active_recognition_count": 14,
+            "passive_recognition_count": 16,
+            "active_recognition_rate": 0.7,
+            "passive_recognition_rate": 0.8,
+            "normal_answer_avg_len_overall": 7550.15,
+            "ill_answer_avg_len_overall": 6925.35,
+            "ill_with_hint_answer_avg_len_overall": 5392.65,
+            "active_criticism_efficiency_overall": 0.9172466772183335,
+            "passive_criticism_efficiency_overall": 0.714244087865804,
+            "active_success_count_for_efficiency": 14,
+            "passive_success_count_for_efficiency": 16,
+            "active_criticism_efficiency_on_success": 0.8716490230157476,
+            "passive_criticism_efficiency_on_success": 0.646140221402214,
+            "total_evaluated": 20,
+            "valid_for_metrics": 20,
+            "invalid_format_count": 0,
+            "invalid_format_pids": []
+        },
+        "hard": {
+            "active_recognition_count": 11,
+            "passive_recognition_count": 18,
+            "active_recognition_rate": 0.55,
+            "passive_recognition_rate": 0.9,
+            "normal_answer_avg_len_overall": 25865.75,
+            "ill_answer_avg_len_overall": 27361.45,
+            "ill_with_hint_answer_avg_len_overall": 23301.65,
+            "active_criticism_efficiency_overall": 1.057825502836763,
+            "passive_criticism_efficiency_overall": 0.9008689096585253,
+            "active_success_count_for_efficiency": 11,
+            "passive_success_count_for_efficiency": 18,
+            "active_criticism_efficiency_on_success": 1.0255622456061373,
+            "passive_criticism_efficiency_on_success": 0.8847162850005748,
+            "total_evaluated": 20,
+            "valid_for_metrics": 20,
+            "invalid_format_count": 0,
+            "invalid_format_pids": []
+        }
+    },
+    "comparative_statistics_by_difficulty": {
+        "active_recognition_rate": {
+            "medium": 0.7,
+            "hard": 0.55,
+            "normal": 0.75
+        },
+        "passive_recognition_rate": {
+            "medium": 0.8,
+            "hard": 0.9,
+            "normal": 1.0
+        },
+        "active_criticism_efficiency_overall": {
+            "medium": 0.9172466772183335,
+            "hard": 1.057825502836763,
+            "normal": 1.6482213438735176
+        },
+        "passive_criticism_efficiency_overall": {
+            "medium": 0.714244087865804,
+            "hard": 0.9008689096585253,
+            "normal": 1.452417148069322
+        },
+        "active_criticism_efficiency_on_success": {
+            "medium": 0.8716490230157476,
+            "hard": 1.0255622456061373,
+            "normal": 1.3015305552452239
+        },
+        "passive_criticism_efficiency_on_success": {
+            "medium": 0.646140221402214,
+            "hard": 0.8847162850005748,
+            "normal": 1.452417148069322
+        },
+        "valid_for_metrics": {
+            "medium": 20,
+            "hard": 20,
+            "normal": 20
+        }
+    },
+    "notes": "Metrics calculated for successfully parsed evaluation results only. 'invalid_format_count' indicates results skipped due to unexpected structure (e.g., True/False missing). Overall average lengths and efficiency ratios are calculated over ALL valid samples. Efficiency 'on_success' is calculated ONLY for samples where the model successfully identified the contradiction in that mode. 'comparative_statistics_by_difficulty' section shows how key metrics vary across difficulty levels."
+}

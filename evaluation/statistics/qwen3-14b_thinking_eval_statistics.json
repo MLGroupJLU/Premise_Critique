@@ -1,0 +1,67 @@
+{
+    "model_name": "qwen3-14b_thinking",
+    "overall_statistics": {
+        "active_recognition_count": 2,
+        "passive_recognition_count": 3,
+        "active_recognition_rate": 0.6666666666666666,
+        "passive_recognition_rate": 1.0,
+        "normal_answer_avg_len_overall": 1161.0,
+        "ill_answer_avg_len_overall": 4955.666666666667,
+        "ill_with_hint_answer_avg_len_overall": 2104.3333333333335,
+        "active_criticism_efficiency_overall": 4.268446741314959,
+        "passive_criticism_efficiency_overall": 1.81251794430089,
+        "active_success_count_for_efficiency": 2,
+        "passive_success_count_for_efficiency": 3,
+        "active_criticism_efficiency_on_success": 4.421095334685599,
+        "passive_criticism_efficiency_on_success": 1.81251794430089,
+        "total_evaluated": 3,
+        "valid_for_metrics": 3,
+        "invalid_format_count": 0,
+        "invalid_format_pids": []
+    },
+    "statistics_by_difficulty": {
+        "normal": {
+            "active_recognition_count": 2,
+            "passive_recognition_count": 3,
+            "active_recognition_rate": 0.6666666666666666,
+            "passive_recognition_rate": 1.0,
+            "normal_answer_avg_len_overall": 1161.0,
+            "ill_answer_avg_len_overall": 4955.666666666667,
+            "ill_with_hint_answer_avg_len_overall": 2104.3333333333335,
+            "active_criticism_efficiency_overall": 4.268446741314959,
+            "passive_criticism_efficiency_overall": 1.81251794430089,
+            "active_success_count_for_efficiency": 2,
+            "passive_success_count_for_efficiency": 3,
+            "active_criticism_efficiency_on_success": 4.421095334685599,
+            "passive_criticism_efficiency_on_success": 1.81251794430089,
+            "total_evaluated": 3,
+            "valid_for_metrics": 3,
+            "invalid_format_count": 0,
+            "invalid_format_pids": []
+        }
+    },
+    "comparative_statistics_by_difficulty": {
+        "active_recognition_rate": {
+            "normal": 0.6666666666666666
+        },
+        "passive_recognition_rate": {
+            "normal": 1.0
+        },
+        "active_criticism_efficiency_overall": {
+            "normal": 4.268446741314959
+        },
+        "passive_criticism_efficiency_overall": {
+            "normal": 1.81251794430089
+        },
+        "active_criticism_efficiency_on_success": {
+            "normal": 4.421095334685599
+        },
+        "passive_criticism_efficiency_on_success": {
+            "normal": 1.81251794430089
+        },
+        "valid_for_metrics": {
+            "normal": 3
+        }
+    },
+    "notes": "Metrics calculated for successfully parsed evaluation results only. 'invalid_format_count' indicates results skipped due to unexpected structure (e.g., True/False missing). Overall average lengths and efficiency ratios are calculated over ALL valid samples. Efficiency 'on_success' is calculated ONLY for samples where the model successfully identified the contradiction in that mode. 'comparative_statistics_by_difficulty' section shows how key metrics vary across difficulty levels."
+}

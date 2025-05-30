@@ -1,11 +1,11 @@
 # Don’t Take the Premise for Granted: Evaluating the Premise Critique Ability of Large Language Models
 
 <p align="center" width="50%">
-<a ><img src="resources/img/ill_comic.png" alt="overview" style="width: 40%; min-width: 300px; display: block; margin: auto;"></a>
+<a ><img src="resources/img/ill_comic.png" alt="ill_comic" style="width: 40%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
 <div align="center">
-  <a href="">
+  <a href="https://arxiv.org/html/2505.23715v1">
     <strong>📃 Paper</strong>
   </a>
   •
@@ -33,10 +33,10 @@
 
 <p align="center" width="50%">
 <a ><img src="resources\img\illustration.jpg
-" alt="overview" style="width: 40%; min-width: 200px; display: block; margin: auto;"></a>
+" alt="illustration" style="width: 40%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 
-Large language models (LLMs) have witnessed rapid advancements, demonstrating remarkable capabilities. However, a notable vulnerability persists: LLMs often uncritically accept flawed or contradictory premises, leading to inefficient reasoning and unreliable outputs. This emphasizes the significance of possessing the **Premise Critique Ability** for LLMs, defined as the capacity to proactively identify and articulate errors in input premises. Most existing studies assess LLMs' reasoning ability in ideal settings, largely ignoring their vulnerabilities when faced with flawed premises. Thus, we introduce the **Premise Critique Bench (PCBench)**, designed by incorporating four error types across three difficulty levels, paired with multi-faceted evaluation metrics. We conducted systematic evaluations of 15 representative LLMs
+Large language models (LLMs) have witnessed rapid advancements, demonstrating remarkable capabilities. However, a notable vulnerability persists: LLMs often uncritically accept flawed or contradictory premises, leading to inefficient reasoning and unreliable outputs. This emphasizes the significance of possessing the **Premise Critique Ability** for LLMs, defined as the capacity to proactively identify and articulate errors in input premises. Most existing studies assess LLMs' reasoning ability in ideal settings, largely ignoring their vulnerabilities when faced with flawed premises. Thus, we introduce the **Premise Critique Bench (PCBench)**, designed by incorporating four error types across three difficulty levels, paired with multi-faceted evaluation metrics. We conducted systematic evaluations of 15 representative LLMs.
 
 ## Key Findings
 
@@ -62,27 +62,74 @@ We construct **PCBench** to systematically evaluate LLMs' premise critique abili
 Designed to analyze how error type and task complexity impact premise critique ability.
 <p align="center" width="50%">
 <a ><img src="resources\img\construct.png
-" alt="overview" style="width: 40%; min-width: 500px; display: block; margin: auto;"></a>
+" alt="construct" style="width: 40%; min-width: 500px; display: block; margin: auto;"></a>
 </p>
 
 ## Results
 
 <p align="center" width="50%">
 <a ><img src="resources\img\results.png
-" alt="overview" style="width: 40%; min-width: 550px; display: block; margin: auto;"></a>
+" alt="results" style="width: 40%; min-width: 550px; display: block; margin: auto;"></a>
 </p>
 
-## Install
+specific response and corresponding evaluation results can be found in `evaluation\infer_result` and `evaluation\eval_result`
 
+The statistical results of the evaluation results are acceptable at `evaluation\statistics`
+
+## Install
+```
+pip install -r requirements.txt
+```
 ## Run Code
+
+For reference, the command - line scripts are located in the `evaluation\reference_sh` folder.
+
 ### Inference
+Run following commad to get LLM's responses.
+
+```bash
+python ./evaluation/inference.py --model_name <model_name> --mode inference --save_frequency <save_frequency> --dataset_load_proc <dataset_load_proc> --infer_proc <infer_proc>
+```
+
+Validates inference results for missing samples (repeat until no omissions).
+
+```bash
+python ./evaluation/inference.py --model_name <model_name> --mode check --save_frequency <save_frequency> --dataset_load_proc <dataset_load_proc> --infer_proc <infer_proc>
+```
+Scripts located in `evaluation\reference_sh`.
 
 ### Evaluation
+Run following commad to get o3-mini-high's evaluation result to corresponding responses.
 
-### Score
+```bash
+python ./evaluation/eval.py --model_name <model_name> --mode inference --evaluator <evaluator_model> --save_frequency <save_frequency> --infer_proc <infer_proc>
+```
+
+Validates evaluation results for missing samples (repeat until no omissions).
+
+```bash
+python ./evaluation/eval.py --model_name <model_name> --mode check --evaluator <evaluator_model> --save_frequency <save_frequency> --infer_proc <infer_proc>
+```
+
+Scripts located in `evaluation\reference_sh`.
+
+### Statistics
+
+After evaluating all the models, you can run following command to get the statisitcs of the evaluation result.
+
+```bash
+python ./evaluation/statistics.py
+```
 
 ## Citation
 ```
-
+@misc{li2025dont,
+    title={Don't Take the Premise for Granted: Evaluating the Premise Critique Ability of Large Language Models},
+    author={Jinzhe Li and Gengxu Li and Yi Chang and Yuan Wu},
+    year={2025},
+    eprint={2505.23715},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
 ```
 Please cite our paper if you find our research and code useful.

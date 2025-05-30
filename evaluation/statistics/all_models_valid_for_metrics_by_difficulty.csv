@@ -1,0 +1,16 @@
+Model,medium,hard,normal
+claude-3-7-sonnet-20250219-thinking,400,400,400
+Deepseek-R1,400,400,400
+DeepSeek-V3,400,400,400
+gemini-2.0-flash-thinking-exp-01-21,400,400,400
+gpt-4.1,400,400,400
+gpt-4o,400,400,400
+llama-4-maverick,400,400,400
+o3-mini-medium,400,400,400
+o4-mini-medium,400,400,400
+qwen3-235b-a22b,400,400,400
+Qwen3-235B-A22B_thinking,400,400,400
+qwen3-30b-a3b,400,400,400
+Qwen3-30B-A3B_thinking,400,400,400
+Qwen3-8B,400,400,400
+Qwen3-8B_thinking,400,400,400
