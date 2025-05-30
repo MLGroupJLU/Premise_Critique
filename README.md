@@ -32,7 +32,7 @@
 ## Introduction
 
 <p align="center" width="50%">
-<a ><img src="resources/img/illustration.svg
+<a ><img src="/resources/img/illustration.svg
 " alt="introduction" style="width: 40%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 
@@ -61,14 +61,14 @@ We construct **PCBench** to systematically evaluate LLMs' premise critique abili
 **Scale**: 100 base problems per error-difficulty combination → 1,200 base problems → 3,600 problems (3 variants each).  
 Designed to analyze how error type and task complexity impact premise critique ability.
 <p align="center" width="50%">
-<a ><img src="resources/img/construct.png
+<a ><img src="/resources/img/construct.png
 " alt="construction" style="width: 40%; min-width: 500px; display: block; margin: auto;"></a>
 </p>
 
 ## Results
 
 <p align="center" width="50%">
-<a ><img src="resources/img/results.png
+<a ><img src="/resources/img/results.png
 " alt="results" style="width: 40%; min-width: 550px; display: block; margin: auto;"></a>
 </p>
 
