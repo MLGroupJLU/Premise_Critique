@@ -32,8 +32,8 @@
 ## Introduction
 
 <p align="center" width="50%">
-<a ><img src="resources\img\illustration.jpg
-" alt="illustration" style="width: 40%; min-width: 200px; display: block; margin: auto;"></a>
+<a ><img src="resources/img/illustration.svg
+" alt="overview" style="width: 40%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 
 Large language models (LLMs) have witnessed rapid advancements, demonstrating remarkable capabilities. However, a notable vulnerability persists: LLMs often uncritically accept flawed or contradictory premises, leading to inefficient reasoning and unreliable outputs. This emphasizes the significance of possessing the **Premise Critique Ability** for LLMs, defined as the capacity to proactively identify and articulate errors in input premises. Most existing studies assess LLMs' reasoning ability in ideal settings, largely ignoring their vulnerabilities when faced with flawed premises. Thus, we introduce the **Premise Critique Bench (PCBench)**, designed by incorporating four error types across three difficulty levels, paired with multi-faceted evaluation metrics. We conducted systematic evaluations of 15 representative LLMs.
