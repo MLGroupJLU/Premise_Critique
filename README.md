@@ -5,7 +5,7 @@
 </p>
 
 <div align="center">
-  <a href="https://arxiv.org/html/2505.23715v1">
+  <a href="https://arxiv.org/abs/2505.23715">
     <strong>📃 Paper</strong>
   </a>
   •
